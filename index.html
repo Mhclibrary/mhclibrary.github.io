@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<div id="display">OPEN/CLOSED</div>
+
+<script>
+function displayState() {
+localTime=new Date();
+utc1Time=new Date(localTime.getTime() + (localTime.getTimezoneOffset() + 120) * 60000);
+hours=utc1Time.getHours();
+minutes=utc1Time.getMinutes();
+today=utc1Time.getDay();
+display=document.getElementById('display');
+if (today==0) display.innerHTML = 'CLOSED';
+if (today==7) {
+if (hours>=8&&hours<=15) { 
+display.innerHTML = 'OPEN';
+} 
+else { 
+display.innerHTML = 'CLOSED';
+}
+}
+if (today>=1&&today<=6) {
+if (hours>=8&&hours<=19) { 
+if (hours==19&&minutes<=30) {
+display.innerHTML = 'OPEN';
+}
+if (hours<19) display.innerHTML = 'OPEN';
+} 
+else { 
+display.innerHTML = 'CLOSED';
+}
+}
+}
+displayState();
+int=self.setInterval(function(){displayState()},60000)
+</script>
+
+<a href="https://www.accuweather.com/en/ca/medicine-hat/t1b/weather-forecast/46928" class="aw-widget-legal">
+<!--
+By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at https://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at https://www.accuweather.com/en/privacy.
+-->
+</a><div id="awcc1493049725829" class="aw-widget-current"  data-locationkey="46928" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1493049725829"></div><script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>
+
+</body>
+</html>
