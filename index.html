@@ -1,15 +1,43 @@
-<!DOCTYPE html>
-<html>
+ï»¿<!-- templatemo 375 tech layer -->
+<!-- 
+Tech Layer Template 
+http://www.templatemo.com/preview/templatemo_375_tech_layer 
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-</head>
-<body>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Library Hours</title>
+<link href="templatemo_style.css" type="text/css" rel="stylesheet" /> 
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script> 
+<script type="text/javascript" src="js/jquery.localscroll-min.js"></script> 
+<script type="text/javascript" src="js/init.js"></script>  
+<script type="text/javascript" src="js/widget.js"></script>
+<link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" /> 
+<script type="text/JavaScript" src="js/slimbox2.js"></script> 
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+</head> 
+<body> 
 
+<div id="templatemo_header_wrapper">
+	<div id="templatemo_header">
+    	<div id="site_title"><a href="#">Library Hours</a></div>
+    </div>
+</div>
+<h1> The library is:</h1>
 <div id="display">OPEN/CLOSED</div>
 
 <script>
 function displayState() {
 localTime=new Date();
-utc1Time=new Date(localTime.getTime() + (localTime.getTimezoneOffset() + 120) * 60000);
+utc1Time=new Date(localTime.getTime() + (localTime.getTimezoneOffset() - 300) * 60000);
 hours=utc1Time.getHours();
 minutes=utc1Time.getMinutes();
 today=utc1Time.getDay();
@@ -24,11 +52,11 @@ display.innerHTML = 'CLOSED';
 }
 }
 if (today>=1&&today<=6) {
-if (hours>=8&&hours<=19) { 
+if (hours>=8&&hours<=18) { 
 if (hours==19&&minutes<=30) {
 display.innerHTML = 'OPEN';
 }
-if (hours<19) display.innerHTML = 'OPEN';
+if (hours<18) display.innerHTML = 'OPEN';
 } 
 else { 
 display.innerHTML = 'CLOSED';
@@ -39,11 +67,135 @@ displayState();
 int=self.setInterval(function(){displayState()},60000)
 </script>
 
-<a href="https://www.accuweather.com/en/ca/medicine-hat/t1b/weather-forecast/46928" class="aw-widget-legal">
-<!--
-By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at https://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at https://www.accuweather.com/en/privacy.
--->
-</a><div id="awcc1493049725829" class="aw-widget-current"  data-locationkey="46928" data-unit="c" data-language="en-us" data-useip="false" data-uid="awcc1493049725829"></div><script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>
 
-</body>
+<div id="templatemo_main_wrapper">
+	<div id="templatemo_main">
+		<div id="content"> 
+            <div id="home" class="section">
+                <div class="home_box left">
+                	<div class="row1 box box1">
+                    	<div class="box_with_padding">
+                        	<h2><a href="#about">Monday - Thursday</a></h2>
+                         
+						</div>
+                    </div>
+                    <div class="row1 box2">
+                    	<div class="box_with_padding">
+                        	<h2><a href="#services">Friday</a></h2>
+                           
+						</div>
+                    </div>
+                    <div class="row1 box3">
+                    	<div class="box_with_padding">
+                        	<h2><a href="#testimonial">Saturday</a></h2>
+                            
+						</div>
+                    </div>
+                    <div class="row1 box4">
+                    	<div class="box_with_padding">
+                        	<h2><a href="#contact">Sunday</a></h2>
+                            
+						</div>
+                    </div>
+                </div>
+ 				<div class="home_box right">
+                	<div class="row1 box5">
+                    	<div class="box_with_padding">
+                        	<h2>8 A.M. - 6 P.M.</h2>
+                    
+						</div>
+                    </div>
+                  <div class="home_box right">
+                	<div class="row1 box8">
+                    	<div class="box_with_padding">
+                        	<h2>8 A.M. - 5 P.M.</h2>
+                    
+						</div>
+                    </div>
+					<div class="home_box right">
+                	<div class="row1 box9">
+                    	<div class="box_with_padding">
+                        	<h2>1 P.M. - 5 P.M.</h2>
+                    
+						</div>
+                    </div>
+                    <div class="row1 box6">
+                   <div class="box_with_padding">
+                        	<h2>CLOSED</h2>
+                            
+                                </div>                                
+                            	
+                            <div class="clear"></div>
+                        </div>
+                        
+						
+                    </div>
+                </div>
+		
+            </div> <!-- END of Home -->
+        </div>
+     </div>
+	 </div>
+	 
+	 <div id="templatemo_main_wrapper">
+	<div id="templatemo_main">
+		<div id="content"> 
+            <div id="home" class="section">
+                <div class="home_box left">
+                	<div class="row1 box box7">
+                    	<div class="twitter_box_padding">
+                        	<h2><a href="#about">Live Twitter Feed</a></h2>
+                         
+						</div>
+                    </div>
+<div class="row2" id="home_gallery">
+                    	<a href="images/gallery/01-l.jpg" rel="lightbox[home_gallery]" class="left"><img src="images/gallery/01.jpg" alt="image 1" /></a>
+                        <a href="images/gallery/02-l.jpg" rel="lightbox[home_gallery]" class="left"><img src="images/gallery/02.jpg" alt="image 2" /></a>
+                        <a href="images/gallery/03-l.jpg" rel="lightbox[home_gallery]" class="left"><img src="images/gallery/03.jpg" alt="image 3" /></a>
+                        <a href="images/gallery/04-l.jpg" rel="lightbox[home_gallery]" class="left"><img src="images/gallery/04.jpg" alt="image 4" /></a>
+					</div>
+                    <div class="row1 box2">
+                    	<div class="box_with_padding">
+                        	<h2><a href="#services">Friday</a></h2>
+                           
+						</div>
+                    </div>
+                    <div class="row1 box3">
+                    	<div class="box_with_padding">
+                        	<h2><a href="#testimonial">Saturday</a></h2>
+                            
+						</div>
+                    </div>
+                    <div class="row1 box4">
+                    	<div class="box_with_padding">
+                        	<h2><a href="#contact"></a></h2>
+                            
+						</div>
+                    </div>
+                </div>
+ 				<div class="home_box right">
+                	
+                        	<a class="twitter-timeline" data-height="1000" data-theme="dark" href="https://twitter.com/mhclibrary">Tweets by mhclibrary</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                         	
+						</div>
+                    </div>
+			
+                        
+						
+                    </div>
+                </div>
+		
+            </div> <!-- END of Home -->
+        </div>
+     </div>
+	 </div>
+
+<div id="templatemo_footer_wrapper">
+	<div id="templatemo_footer">
+    	<p>Copyright Â© 2072 <a href="#">Company Name</a></p>
+    </div>
+</div>
+
+</div>
+</body> 
 </html>
