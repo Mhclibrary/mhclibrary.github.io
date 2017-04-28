@@ -89,7 +89,22 @@ img { margin: 0; padding: 0; border: none }
 	background: url(images/templatemo_content_bg.png) no-repeat
 }
 
+#templatemo_bottom_wrapper {
+	width: 800px;
+	height: 480px;
+	margin: 15px -8px;
+	padding: 9px;
+	background: url(images/templatemo_content_bg.png) no-repeat
+}
+
+
 #templatemo_main {
+	width: 800px;
+	height: 480px;
+	overflow: hidden;
+}
+
+#templatemo_bottom {
 	width: 800px;
 	height: 480px;
 	overflow: hidden;
@@ -122,6 +137,12 @@ img { margin: 0; padding: 0; border: none }
 	height: 480px;
 	background: #3c3b3b;	
 }
+
+#weather {
+	text-align: center;
+	margin: 500px 0px 0px 0px;
+}
+
 
 .section {
 	position:relative;
