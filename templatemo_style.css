@@ -29,7 +29,7 @@ ul, li {
 
 h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: normal; }
 h1 { font-size: 36px; margin: 0 0 30px; padding: 5px 0 }
-h2 { font-size: 36px; margin: 0 0 25px; padding: 5px 0 }
+h2 { font-size: 39px; margin: 0 0 25px; padding: 5px 0 }
 h3 { font-size: 25px; margin: 0 0 20px; padding: 0; }
 h4 { font-size: 16px; margin: 0 0 15px; padding: 0; }
 h5 { font-size: 14px; margin: 0 0 10px; padding: 0;  }
@@ -204,11 +204,11 @@ img { margin: 0; padding: 0; border: none }
 	
 .box9 { background: #cf2b27  scroll 20px 25px no-repeat }
 
-.home_box .box_with_padding { padding: 25px 15px 15px 30px }
+.home_box .box_with_padding { padding: 30px 15px 15px 15px }
 
 .twitter_box_padding { padding: 25px 15px 15px 110px }
 
-#content .home_box h2 { color: #fff; font-size: 37px; margin-bottom: 10px }
+#content .home_box h2 { color: #fff; font-size: 38px; margin-bottom: 10px }
 
 #home_gallery {
 	position: relative;
