@@ -82,25 +82,25 @@ int=self.setInterval(function(){displayState()},60000)
                 <div class="home_box left">
                 	<div class="row1 box box1">
                     	<div class="box_with_padding">
-                        	<h2><a href="#about">Monday - Thursday</a></h2>
+                        	<h2>Monday - Thursday</h2>
                          
 						</div>
                     </div>
                     <div class="row1 box2">
                     	<div class="box_with_padding">
-                        	<h2><a href="#services">Friday</a></h2>
+                        	<h2>Friday</h2>
                            
 						</div>
                     </div>
                     <div class="row1 box3">
                     	<div class="box_with_padding">
-                        	<h2><a href="#testimonial">Saturday</a></h2>
+                        	<h2>Saturday</h2>
                             
 						</div>
                     </div>
                     <div class="row1 box4">
                     	<div class="box_with_padding">
-                        	<h2><a href="#contact">Sunday</a></h2>
+                        	<h2>Sunday</h2>
                             
 						</div>
                     </div>
@@ -143,7 +143,7 @@ int=self.setInterval(function(){displayState()},60000)
         </div>
      </div>
 	 </div>
-	 <img id="slideshow" src="images/help.png" alt="Help Banner">
+	
 <div id="templatemo_bottom_wrapper">
 	<div id="templatemo_bottom">
 		<div id="content"> 
@@ -151,7 +151,7 @@ int=self.setInterval(function(){displayState()},60000)
                 <div class="home_box left">
                 	<div class="row1 box box7">
                     	<div class="twitter_box_padding">
-                        	<h2><a href="#about">Live Twitter Feed</a></h2>
+                        	<h3><a href="#about">Live Twitter Feed</a></h3>
                          
 						</div>
                     </div>
@@ -210,7 +210,7 @@ int=self.setInterval(function(){displayState()},60000)
                 </div>
  				<div class="home_box right">
                 	
-                        	            <a class="twitter-timeline" data-height="550" data-theme="dark" href="https://twitter.com/mhclibrary">Tweets with @mhclibrary</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        	            <a class="twitter-timeline" data-height="1000" data-theme="dark" href="https://twitter.com/search?f=tweets&q=%40mhclibrary">Tweets with @mhclibrary</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
           
                          	
 						</div>
@@ -231,9 +231,26 @@ int=self.setInterval(function(){displayState()},60000)
 
 <div id="templatemo_footer_wrapper">
 	<div id="templatemo_footer">
-	<img id="books" src="images/books_footer.png">
+	<img class="mySlides" src="images/slideshow/books_footer.png">
+	<img class="mySlides" src="images/slideshow/help.png">
     	
     </div>
+	<script>
+	var myIndex = 0;
+	carousel();
+	
+	function carousel() {
+	var i;
+	var x = document.getElementsByClassName("mySlides");
+	for (i = 0; i < x.length; i++) {
+	x[i].style.display = "none";
+	}
+	myIndex++;
+	if (myIndex > x.length) {myIndex = 1}
+	x[myIndex-1].style.display = "block";
+	setTimeout(carousel, 2000);
+	}
+	</script>
 </div>
 
 </div>
