@@ -72,8 +72,15 @@ function displayState() {
     var h = d.getHours();
     var n = d.getDay();
 var m = d.getMinutes();
+var a = d.getMonth();
 var display = document.getElementById('display');
 
+if (n==6) {
+if (a==5) {
+display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
+}}
+
+else {
 if (n==0) {
 display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>"; 
 }
@@ -100,6 +107,7 @@ display.innerHTML = 'OPEN';
 }
 else {
 display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
+}
 }
 }
 }
