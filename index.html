@@ -74,14 +74,13 @@ function displayState() {
 var m = d.getMinutes();
 var display = document.getElementById('display');
 
-if (n==0) display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>"; 
+if (n==0) {
+display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>"; 
+}
 
 if (n>=1&&n<=4) {
-if (h>=8&&h<=1629) {
+if (h>=8&&h<=17) {
 display.innerHTML = 'OPEN';
-}
-else if (h>=1630) {
-display.innerHTML = 'CLOSING SOON';
 }
 else {
 display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
