@@ -75,8 +75,8 @@ var m = d.getMinutes();
 var a = d.getMonth();
 var display = document.getElementById('display');
 
-if (n==6) {
-if (a==5) {
+if (n==1) {
+if (a==6) {
 display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
 }}
 
@@ -86,7 +86,7 @@ display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
 }
 
 if (n>=1&&n<=4) {
-if (h>=8&&h<=17) {
+if (h>=8&&h<=16) {
 display.innerHTML = 'OPEN';
 }
 else {
@@ -103,7 +103,7 @@ display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
 }
 if (n==6) {
 if (h>=13&&h<=16) {
-display.innerHTML = 'OPEN';
+display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
 }
 else {
 display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
@@ -149,7 +149,7 @@ int=self.setInterval(function(){displayState()},60000)
  				<div class="home_box right">
                 	<div class="row1 box5">
                     	<div class="box_with_padding">
-                        	<h2>8 A.M. - 6 P.M.</h2>
+                        	<h2>8 A.M. - 5 P.M.</h2>
                     
 						</div>
                     </div>
@@ -163,7 +163,7 @@ int=self.setInterval(function(){displayState()},60000)
 					<div class="home_box right">
                 	<div class="row1 box9">
                     	<div class="box_with_padding">
-                        	<h2>1 P.M. - 5 P.M.</h2>
+                        	<h2>CLOSED</h2>
                     
 						</div>
                     </div>
