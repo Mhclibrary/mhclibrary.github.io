@@ -383,13 +383,13 @@ img { margin: 0; padding: 0; border: none }
 }
 
 #clockdiv {
-	font-size: 150px;
+	font-size: 400px;
 	text-align: center;
 	color: #ffffff
 }
 #button { 
 display: block;
 margin: 0 auto;
-margin-top: 30px;
+margin-top: 110px;
 }
 
