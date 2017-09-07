@@ -76,17 +76,21 @@ var a = d.getMonth();
 var display = document.getElementById('display');
 
 if (n==1) {
-if (a==8) {
+if (a==12) {
 display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
 }}
 
 else {
 if (n==0) {
+if (h>=13&&h<=19) {
+display.innerHTML = 'OPEN';
+}
+else {
 display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>"; 
 }
-
+}
 if (n>=1&&n<=4) {
-if (h>=8&&h<=16) {
+if (h>=7&&h<=21) {
 display.innerHTML = 'OPEN';
 }
 else {
@@ -94,7 +98,7 @@ display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
 }
 }
 if (n==5) {
-if (h>=8&&h<=16){
+if (h>=7&&h<=16){
 display.innerHTML = 'OPEN';
 }
 else {
@@ -102,8 +106,8 @@ display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
 }
 }
 if (n==6) {
-if (h>=13&&h<=16) {
-display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
+if (h>=10&&h<=16) {
+display.innerHTML = 'OPEN';
 }
 else {
 display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
