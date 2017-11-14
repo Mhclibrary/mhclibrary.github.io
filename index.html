@@ -26,6 +26,8 @@ function clearText(field)
 </script>
 </head> 
 <body> 
+<!--Ads Box (It will run up to 5 ads)-->
+<!-- var upper controls how many ads it will read -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="http://www.jacklmoore.com/colorbox/jquery.colorbox.js"></script>
     <script>
@@ -55,7 +57,7 @@ var upper=5;
   
 
 </script>
-
+<!-- End Ad Box -->
 <div id="templatemo_header_wrapper">
 	<div id="templatemo_header">
 
@@ -65,7 +67,10 @@ var upper=5;
     </div>
 </div>
 <p id="display"></p>
-
+<!-- Hours Display - Open/Close-->
+<!-- n is day. 0 = sunday - 6 = saturday -->
+<!-- a = month -->
+<!-- h = hour; 24 hour clock -->
 <script>
 function displayState() {
     var d = new Date();
@@ -74,7 +79,7 @@ function displayState() {
 var m = d.getMinutes();
 var a = d.getMonth();
 var display = document.getElementById('display');
-
+<!-- override section n + a; use for holidays we are closed-->
 if (n==12) {
 if (a==92) {
 display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
@@ -118,8 +123,8 @@ display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
 displayState();
 int=self.setInterval(function(){displayState()},60000)
 </script>
-
-
+<!-- end display hours -->
+<!-- Start visible hours -->
 <div id="templatemo_main_wrapper">
 	<div id="templatemo_main">
 		<div id="content"> 
@@ -184,7 +189,7 @@ int=self.setInterval(function(){displayState()},60000)
                     </div>
                 </div>
 		
-            </div> <!-- END of top Home -->
+            </div> <!-- END of top Home & visible hours-->
         </div>
      </div>
 	 </div>
@@ -273,7 +278,7 @@ int=self.setInterval(function(){displayState()},60000)
 
 <!-- END of Home -->
 
-
+<!-- start of footer slideshow; will allow up to 5 slides -->
 <div id="templatemo_footer_wrapper">
 	<div id="templatemo_footer">
 	<img class="mySlides" src="images/slideshow/slide1.png">
@@ -300,7 +305,7 @@ int=self.setInterval(function(){displayState()},60000)
 	}
 	</script>
 </div>
-
+<!-- end of footer slideshow -->
 </div>
 </body>
 </html>
