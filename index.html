@@ -24,6 +24,27 @@ function clearText(field)
     else if (field.value == '') field.value = field.defaultValue;
 }
 </script>
+<script>
+function check_connect()
+
+    var testURL = "images/slideshow/slide1.png"
+    var waitTime = 3600000  // recheck every 1 hr
+
+    $.ajax({
+      type: 'GET',
+      url: testURL,
+      timeout: 5000,  // allow this many milisecs for network connect to succeed
+      success: function(data) {
+        // we have a connection, reload page then try again after waitTime
+        location.reload();  // reloads entire page
+        window.setTimeout(check_connect, waitTime)  // try again after waitTime miliseconds
+      },
+      error: function(XMLHttpRequest, textStatus, errorThrown) {
+        // no connection, try again after waitTime
+        window.setTimeout(check_connect, waitTime) 
+      }
+      });
+</script>
 </head> 
 <body> 
 <!--Ads Box (It will run up to 5 ads)-->
