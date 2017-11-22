@@ -25,23 +25,25 @@ function clearText(field)
 }
 </script>
 <script>
-function check_connect()
 
     var testURL = "images/slideshow/slide1.png"
     var waitTime = 15000  // recheck every 15 seconds
-
-    $.ajax({
+	
+	function checkConnect()
+{
+    $.ajax(
+	{
       type: 'GET',
       url: testURL,
       timeout: 5000,  // allow this many milisecs for network connect to succeed
       success: function(data) {
         // we have a connection
  alert('Success');
-        setTimeout(check_connect, waitTime)  // try again after waitTime miliseconds
+        setTimeout(checkConnect, waitTime)  // try again after waitTime miliseconds
       },
       error: function(XMLHttpRequest, textStatus, errorThrown) {
         // no connection, try again after waitTime
-        setTimeout(check_connect, waitTime) 
+        setTimeout(checkConnect, waitTime) 
       }
       });
 </script>
