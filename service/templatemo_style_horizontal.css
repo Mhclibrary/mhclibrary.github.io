@@ -14,7 +14,7 @@ body{
 	line-height: 1.6em; 
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	background-color: #313030;
-	background-image:  url(images/templatemo_body.jpg);
+	background-image:  url(../images/templatemo_body.jpg);
 	background-position: center top;
 	background-repeat: no-repeat
 }
@@ -49,7 +49,7 @@ img { margin: 0; padding: 0; border: none }
 
 #templatemo_header_wrapper {
 	width: 100%;
-	background: url(images/templatemo_header.png) center bottom no-repeat 
+	background: url(../images/templatemo_header.png) center bottom no-repeat 
 }
 
 #templatemo_header {
@@ -69,7 +69,7 @@ img { margin: 0; padding: 0; border: none }
 	height: 480px;
 	margin: 70px -8px 0px -8px;
 	padding: 9px;
-	background: url(images/templatemo_content_bg.png) no-repeat;
+	background: url(../images/templatemo_content_bg.png) no-repeat;
 	overflow: hidden;
 }
 
@@ -89,7 +89,7 @@ img { margin: 0; padding: 0; border: none }
 
 #templatemo_footer_wrapper {
 	width: 100%;
-	background: url(images/templatemo_footer.png) center top no-repeat
+	background: url(../images/templatemo_footer.png) center top no-repeat
 }
 
 #templatemo_footer {
@@ -141,7 +141,7 @@ img { margin: 0; padding: 0; border: none }
 	width: 52px; 
 	height: 45px; 
 	display: block;
-	background: url(images/home_btn.png); 
+	background: url(../images/home_btn.png); 
 	text-indent: -10000px 
 }
 
@@ -167,7 +167,7 @@ img { margin: 0; padding: 0; border: none }
 
 .box6 { background: #3c3b3b }
 
-.box7 { background: #413959 url(images/twitter.png) scroll 18px 15px no-repeat  }
+.box7 { background: #413959 url(../images/twitter.png) scroll 18px 15px no-repeat  }
 
 .box8 { background:  #d86b00  scroll 20px 25px no-repeat }
 	
