@@ -1,0 +1,177 @@
+﻿<!-- templatemo 375 tech layer -->
+<!-- 
+Tech Layer Template 
+http://www.templatemo.com/preview/templatemo_375_tech_layer 
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="http://www.jacklmoore.com/colorbox/example1/colorbox.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Library Hours</title>
+<link href="templatemo_style_horizontal.css" type="text/css" rel="stylesheet" /> 
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script> 
+<script type="text/javascript" src="js/jquery.localscroll-min.js"></script> 
+<script type="text/javascript" src="js/init.js"></script>  
+<script type="text/javascript" src="js/widget.js"></script>
+<link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" /> 
+<script type="text/JavaScript" src="js/slimbox2.js"></script> 
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+</head> 
+<body> 
+<!--Ads Box (It will run up to 5 ads)-->
+<!-- var upper controls how many ads it will read -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://www.jacklmoore.com/colorbox/jquery.colorbox.js"></script>
+    <script>
+var lower=1;
+var upper=5;
+      function openColorBox(){
+        $.colorbox({iframe:true, width:"40%", height:"100%", href: "images/ads/ad"+(Math.floor(Math.random()*(upper-lower))+lower)+".png", onLoad: function() {
+            $('#cboxClose').remove();
+            setTimeout(function(){
+              $(window).colorbox.close();
+            }, 60000)
+          }
+        });
+      }
+
+      function countDown(){
+        seconds--
+        $("#seconds").text(seconds);
+        if (seconds === 0){
+          openColorBox();
+          clearInterval(i);
+        }
+      }
+
+      var seconds = 60,
+          i = setInterval("openColorBox()", 180000);
+  
+
+</script>
+<!-- End Ad Box -->
+<div id="templatemo_header_wrapper">
+	<div id="templatemo_header">
+
+	<img id="logo" src="images/bookmarklogo.png">
+    	<div id="site_title"><a href="#">Library Hours</a></div>
+		
+    </div>
+</div>
+<p id="display"></p>
+
+<div id="templatemo_main_wrapper">
+	<div id="templatemo_main">
+		<div id="content"> 
+            <div id="home" class="section">
+                <div class="home_box left">
+                	<div class="row1 box box1">
+                    	<div class="box_with_padding">
+                        	<h2>Monday - Thursday</h2>
+                         
+						</div>
+                    </div>
+                    <div class="row1 box2">
+                    	<div class="box_with_padding">
+                        	<h2>Friday</h2>
+                           
+						</div>
+                    </div>
+                    <div class="row1 box3">
+                    	<div class="box_with_padding">
+                        	<h2>Saturday</h2>
+                            
+						</div>
+                    </div>
+                    <div class="row1 box4">
+                    	<div class="box_with_padding">
+                        	<h2>Sunday</h2>
+                            
+						</div>
+                    </div>
+                </div>
+ 				<div class="home_box right">
+                	<div class="row1 box5">
+                    	<div class="box_with_padding">
+                        	<h2>7:30 A.M. - 10 P.M.</h2>
+                    
+						</div>
+                    </div>
+                  <div class="home_box right">
+                	<div class="row1 box8">
+                    	<div class="box_with_padding">
+                        	<h2>7:30 A.M. - 5 P.M.</h2>
+                    
+						</div>
+                    </div>
+					<div class="home_box right">
+                	<div class="row1 box9">
+                    	<div class="box_with_padding">
+                        	<h2>10 A.M. - 5 P.M.</h2>
+                    
+						</div>
+                    </div>
+                    <div class="row1 box6">
+                   <div class="box_with_padding">
+                        	<h2>1 P.M. - 8 P.M.</h2>
+                            
+                                </div>                                
+                            	
+                            <div class="clear"></div>
+                        </div>
+                        
+						
+                    </div>
+                </div>
+		
+            </div> <!-- END of top Home & visible hours-->
+        </div>
+     </div>
+	 </div>
+
+						</div>
+                    </div>
+				
+                
+                   
+<!-- END of Home -->
+
+<!-- start of footer slideshow; will allow up to 5 slides -->
+<div id="templatemo_footer_wrapper">
+	<div id="templatemo_footer">
+	<img class="mySlides" src="images/slideshow/slide1.png">
+	<img class="mySlides" src="images/slideshow/slide2.png">
+	<img class="mySlides" src="images/slideshow/slide3.png">
+	<img class="mySlides" src="images/slideshow/slide4.png">
+	<img class="mySlides" src="images/slideshow/slide5.png">
+    	
+    </div>
+	<script>
+	var myIndex = 0;
+	carousel();
+	
+	function carousel() {
+	var i;
+	var x = document.getElementsByClassName("mySlides");
+	for (i = 0; i < x.length; i++) {
+	x[i].style.display = "none";
+	}
+	myIndex++;
+	if (myIndex > x.length) {myIndex = 1}
+	x[myIndex-1].style.display = "block";
+	setTimeout(carousel, 600000);
+	}
+	</script>
+</div>
+<!-- end of footer slideshow -->
+</div>
+</body>
+</html>
