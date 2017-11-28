@@ -110,7 +110,7 @@ img { margin: 0; padding: 0; border: none }
 	overflow:hidden;
 	width: 7000px;
 	position:relative;
-	height: 600px;
+	height: 830px;
 	background: #3c3b3b;	
 }
 
@@ -147,7 +147,7 @@ img { margin: 0; padding: 0; border: none }
 
 .home_box { width: 100px; height: 480px; }
 
-.row1 { width: 800px; height: 150px }
+.row1 { width: 800px; height: 200px }
 .row2 { width: 400px; height: 240px }
 
 .box1 { background: #e8b76d scroll 200px 25px no-repeat }
