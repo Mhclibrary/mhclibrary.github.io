@@ -38,7 +38,7 @@ p a:hover { color: #CC66FF; text-decoration: none; }
 
 a.header { display: block; font-weight: 700 }
 
-img { margin: 0; padding: 0; border: none }
+img { margin: 0px auto; padding: 0; border: none text-align: center;}
 .img_border { background: #525252; padding: 4px; border: 1px solid #282828 }
 .img_nom { display: block; margin-bottom: 15px }
 .img_fl { float: left; margin: 3px 15px 5px 0 }
@@ -222,8 +222,8 @@ img { margin: 0; padding: 0; border: none }
 
 .mySlides {
 	text-align: center;
-	width: 850px;
+	width: 100%;
 	height: auto;
-	margin: 140px 0px 0px -35px;
+	margin: 0px auto;
 }
 
