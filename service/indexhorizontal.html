@@ -34,7 +34,7 @@ function clearText(field)
 var lower=1;
 var upper=5;
       function openColorBox(){
-        $.colorbox({iframe:true, innerWidth:"50%", innerHeight:"100%", href: "../images/Horizontal/slide"+(Math.floor(Math.random()*(upper-lower))+lower)+".png", onLoad: function() {
+        $("image").colorbox({iframe:true, innerWidth:"100%", innerHeight:"100%", href: "../images/Horizontal/slide"+(Math.floor(Math.random()*(upper-lower))+lower)+".png", onLoad: function() {
             $('#cboxClose').remove();
             setTimeout(function(){
               $(window).colorbox.close();

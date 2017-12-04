@@ -227,3 +227,7 @@ img { margin: 0px auto; padding: 0; border: none text-align: center;}
 	margin: 0px auto;
 }
 
+.horizontal {
+	width: 50%;
+	height: auto;
+}
