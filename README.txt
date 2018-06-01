@@ -15,5 +15,6 @@ Feel free to use whatever if the poster is given to you from outside sources. Fo
 For the best look for posters follow these dimensions:
 
 Portrait: 2376 px X 3669 px
-Horizontal: 
+Horizontal: 1900 X 1000
+
  
