@@ -73,7 +73,7 @@ h6 {
 }
 h4.sch {
 		font-family: 'Poppins', sans-serif;
-		color: #4c9cef;
+		color: #cf2b27;
 }
 
 a {
@@ -91,7 +91,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #ffa500;
+    color: ##b70000;
     text-decoration: none;
 	outline: none;
 }
@@ -569,12 +569,12 @@ fieldset {
   width: 0px;
   height: 2px;
   font-style: normal;
-  background: #4c9cef;
+  background: #b70000;
   transition: all 0.40s ease-out;
 }
 
 .our-services h3:hover {
-  color: #4c9cef;
+  color: #b70000;
   position: relative;
 }
 
@@ -583,11 +583,11 @@ fieldset {
 }
 
 .our-services:hover i {
-  color: #4c9cef;
+  color: #b70000;
 }
 
 .our-services:hover h3 {
-  color: #4c9cef;
+  color: #b70000;
 }
 
 .our-services:hover h3:after {
@@ -1363,27 +1363,27 @@ fieldset {
 /* Background Color */
 
 .bg-color-1 {
-	background-color: #f306a0;
-}
-
-.bg-color-2 {
-	background-color: #d60bfb;
-}
-
-.bg-color-3 {
-	background-color: #d8be10;
-}
-
-.bg-color-4 {
-	background-color: #0fd28a;
-}
-
-.bg-color-5 {
 	background-color: #f97400;
 }
 
+.bg-color-2 {
+	background-color: #58595b;
+}
+
+.bg-color-3 {
+	background-color: #f9b015;
+}
+
+.bg-color-4 {
+	background-color: #ffa500;
+}
+
+.bg-color-5 {
+	background-color: #cccccc;
+}
+
 .bg-color-6 {
-	background-color: #08a6f3;
+	background-color: #cf2b27;
 }
 
 
@@ -1441,7 +1441,7 @@ img.main {
 
 strong.details {
 	width: 10px;
-	background-color: #4c9cef;
+	background-color: #cf2b27;
 color: #ffffff;
 border-radius: 30px;
 padding: 5px;
