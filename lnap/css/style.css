@@ -1011,7 +1011,7 @@ fieldset {
 	}
 	
 	.section-title-style {
-		border-bottom: 3px solid #4c9cef;
+		border-bottom: 3px solid #b70000;
 	}
 	
 	.countdown-timer {
@@ -1437,7 +1437,7 @@ img.icon {
 }
 
 img.main {
-	padding-right: 97px;
+	padding-right: 30px;
 }
 
 strong.details {
