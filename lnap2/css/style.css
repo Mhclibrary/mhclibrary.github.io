@@ -54,12 +54,12 @@ body {
 }
 
 ::selection {
-    background-color: #ffa500;
+    background-color: #D86B00;
     color: #ffffff;
 }
 
 ::-moz-selection {
-    background-color: #ffa500;
+    background-color: #D86B00;
     color: #ffffff;
 }
 
@@ -73,7 +73,7 @@ h6 {
 }
 h4.sch {
 		font-family: 'Poppins', sans-serif;
-		color: #cf2b27;
+		color: #D1281A;
 }
 
 a {
@@ -137,7 +137,7 @@ fieldset {
 }
 
 .section-title-style {
-    color: #ffa500;
+    color: #D86B00;
     border-bottom: 5px solid #b70000;
     border-bottom-right-radius: 100%;
 }
@@ -163,7 +163,7 @@ fieldset {
 	font-size: 25px;
 	width: 50px;
     height: 50px;
-    background: #ffa500;
+    background: #D86B00;
     line-height: 50px;
     border-radius: 100%;
 }
@@ -218,7 +218,7 @@ fieldset {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #ffa500;
+  background: #D86B00;
   border-radius: 5px;
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -400,7 +400,7 @@ fieldset {
 	letter-spacing: 1px;
 	color: #FFF;
 	font-weight: 600;
-	background: #ffa500;
+	background: #D86B00;
 	border: none;
 	top: 5px;
 	right: 5px;
@@ -416,7 +416,7 @@ fieldset {
 }
 
 .modal-body .btn {
-	background-color: #ffa500;
+	background-color: #D86B00;
 	margin-top: -66px;
     position: relative;
     margin-right: -50px;
@@ -444,7 +444,7 @@ fieldset {
 
 .our-story a i {
 	font-size: 100px;
-	color: #ffa500;
+	color: #D86B00;
 }
 
 .our-story a i:hover {
@@ -478,7 +478,7 @@ fieldset {
 
 .detail-box::-webkit-scrollbar-thumb {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
-	background-color: #ffa500;
+	background-color: #D86B00;
 }
 
 .owl-navigation {
@@ -605,7 +605,7 @@ fieldset {
 }
 
 .our-team-box {
-  background-color: #ffa500;
+  background-color: #D86B00;
   color: #fff;
   position: relative;
   padding: 1px 26px;
@@ -684,7 +684,7 @@ fieldset {
 }
 
 .form-control:focus {
-	border-color: #ffa500;
+	border-color: #D86B00;
 	border-width: 2px;
 }
 
@@ -889,7 +889,7 @@ fieldset {
 
 .footer-section .column-one {
 	padding: 80px 0px;
-	background-color: #ffa500;
+	background-color: #D86B00;
 }
 
 .footer-section .column-two {
@@ -908,7 +908,7 @@ fieldset {
     display: none;
     font-size: 40px;
     text-align: center;
-    color: #ffa500;
+    color: #D86B00;
     position: fixed;
     right: 8px;
     bottom: 30px;
@@ -1368,7 +1368,7 @@ fieldset {
 }
 
 .bg-color-2 {
-	background-color: #58595b;
+	background-color: #585858;
 }
 
 .bg-color-3 {
@@ -1376,15 +1376,15 @@ fieldset {
 }
 
 .bg-color-4 {
-	background-color: #ffa500;
+	background-color: #D86B00;
 }
 
 .bg-color-5 {
-	background-color: #cccccc;
+	background-color: #868686;
 }
 
 .bg-color-6 {
-	background-color: #cf2b27;
+	background-color: #D1281A;
 }
 
 
@@ -1402,7 +1402,7 @@ fieldset {
 }
 
 .uipasta-credit a:hover {
-    color: #ffa500;
+    color: #D86B00;
 }
 
 /* Table */
@@ -1414,13 +1414,13 @@ table {
 }
 
 td, th {
-    border: 1px solid #cccccc;
+    border: 1px solid #868686;
     text-align: left;
     padding: 8px;
 }
 
 tr:nth-child(even) {
-    background-color: #cccccc;
+    background-color: #868686;
 }
 
 .shc_body {
@@ -1442,7 +1442,7 @@ img.main {
 
 strong.details {
 	width: 10px;
-	background-color: #cf2b27;
+	background-color: #D1281A;
 color: #ffffff;
 border-radius: 30px;
 padding: 5px;
