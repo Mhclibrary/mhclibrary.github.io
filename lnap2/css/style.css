@@ -54,12 +54,12 @@ body {
 }
 
 ::selection {
-    background-color: #D86B00;
+    background-color: #fcb714;
     color: #ffffff;
 }
 
 ::-moz-selection {
-    background-color: #D86B00;
+    background-color: #fcb714;
     color: #ffffff;
 }
 
@@ -137,7 +137,7 @@ fieldset {
 }
 
 .section-title-style {
-    color: #D86B00;
+    color: #fcb714;
     border-bottom: 5px solid #b70000;
     border-bottom-right-radius: 100%;
 }
@@ -163,7 +163,7 @@ fieldset {
 	font-size: 25px;
 	width: 50px;
     height: 50px;
-    background: #D86B00;
+    background: #fcb714;
     line-height: 50px;
     border-radius: 100%;
 }
@@ -218,7 +218,7 @@ fieldset {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #D86B00;
+  background: #fcb714;
   border-radius: 5px;
   -webkit-transform: scale(1);
   transform: scale(1);
@@ -400,7 +400,7 @@ fieldset {
 	letter-spacing: 1px;
 	color: #FFF;
 	font-weight: 600;
-	background: #D86B00;
+	background: #fcb714;
 	border: none;
 	top: 5px;
 	right: 5px;
@@ -416,7 +416,7 @@ fieldset {
 }
 
 .modal-body .btn {
-	background-color: #D86B00;
+	background-color: #fcb714;
 	margin-top: -66px;
     position: relative;
     margin-right: -50px;
@@ -444,7 +444,7 @@ fieldset {
 
 .our-story a i {
 	font-size: 100px;
-	color: #D86B00;
+	color: #fcb714;
 }
 
 .our-story a i:hover {
@@ -478,7 +478,7 @@ fieldset {
 
 .detail-box::-webkit-scrollbar-thumb {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
-	background-color: #D86B00;
+	background-color: #fcb714;
 }
 
 .owl-navigation {
@@ -605,7 +605,7 @@ fieldset {
 }
 
 .our-team-box {
-  background-color: #D86B00;
+  background-color: #fcb714;
   color: #fff;
   position: relative;
   padding: 1px 26px;
@@ -684,7 +684,7 @@ fieldset {
 }
 
 .form-control:focus {
-	border-color: #D86B00;
+	border-color: #fcb714;
 	border-width: 2px;
 }
 
@@ -889,7 +889,7 @@ fieldset {
 
 .footer-section .column-one {
 	padding: 80px 0px;
-	background-color: #D86B00;
+	background-color: #fcb714;
 }
 
 .footer-section .column-two {
@@ -908,7 +908,7 @@ fieldset {
     display: none;
     font-size: 40px;
     text-align: center;
-    color: #D86B00;
+    color: #fcb714;
     position: fixed;
     right: 8px;
     bottom: 30px;
@@ -1352,7 +1352,7 @@ fieldset {
 }
 
 .color-5 {
-	color: #f97400;
+	color: #D86B00;
 }
 
 .color-6 {
@@ -1364,7 +1364,7 @@ fieldset {
 /* Background Color */
 
 .bg-color-1 {
-	background-color: #f97400;
+	background-color: #D86B00;
 }
 
 .bg-color-2 {
@@ -1376,11 +1376,11 @@ fieldset {
 }
 
 .bg-color-4 {
-	background-color: #D86B00;
+	background-color: #fcb714;
 }
 
 .bg-color-5 {
-	background-color: #868686;
+	background-color: #585858;
 }
 
 .bg-color-6 {
@@ -1402,7 +1402,7 @@ fieldset {
 }
 
 .uipasta-credit a:hover {
-    color: #D86B00;
+    color: #fcb714;
 }
 
 /* Table */
