@@ -1364,11 +1364,11 @@ fieldset {
 /* Background Color */
 
 .bg-color-1 {
-	background-color: #D86B00;
+	background-color: #CCCCCC;
 }
 
 .bg-color-2 {
-	background-color: #585858;
+	background-color: #CCCCCC;
 }
 
 .bg-color-3 {
@@ -1376,7 +1376,7 @@ fieldset {
 }
 
 .bg-color-4 {
-	background-color: #fcb714;
+	background-color: #D1281A; 
 }
 
 .bg-color-5 {
@@ -1384,7 +1384,7 @@ fieldset {
 }
 
 .bg-color-6 {
-	background-color: #D1281A;
+	background-color: #585858;
 }
 
 
