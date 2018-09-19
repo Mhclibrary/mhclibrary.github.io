@@ -39,6 +39,8 @@
 
 /* Global Style */
 
+
+
 body {
     font-size: 12px;
     font-weight: 400;
@@ -71,9 +73,13 @@ h5,
 h6 {
 	font-family: 'Poppins', sans-serif;
 }
+
 h4.sch {
 		font-family: 'Poppins', sans-serif;
 		color: #D1281A;
+		font-size: 22px;
+		padding-bottom: 15px;
+		margin-left: -30px;
 }
 
 a {
