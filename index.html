@@ -104,9 +104,9 @@ function displayState() {
 var m = d.getMinutes();
 var a = d.getMonth();
 var display = document.getElementById('display');
-<!-- override section n + a; use for holidays we are closed-->
-if (n==33) {
-if (a==17) {
+<!-- override section n + a; use for holidays we are closed; 0=January, 1=February -->
+if (n==1) {
+if (a==9) {
 display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
 }}
 
