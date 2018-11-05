@@ -1,0 +1,145 @@
+﻿<!-- templatemo 375 tech layer -->
+<!-- 
+Tech Layer Template 
+http://www.templatemo.com/preview/templatemo_375_tech_layer 
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="http://www.jacklmoore.com/colorbox/example1/colorbox.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Library Hours</title>
+<link href="countdown.css" type="text/css" rel="stylesheet" /> 
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script> 
+<script type="text/javascript" src="js/jquery.localscroll-min.js"></script> 
+<script type="text/javascript" src="js/init.js"></script>  
+<script type="text/javascript" src="js/widget.js"></script>
+<link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" /> 
+<script type="text/JavaScript" src="js/slimbox2.js"></script> 
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+</head> 
+<body> 
+<a href="http://search.ebscohost.com/login.aspx?authtype=uid&profile=eon&authtype=uid&user=s2134293&password=password" target=_blank>
+<img src="http://smallcontent.ebsco-content.com/interfacefiles/14.4.0.227/eon/logoEONLg.gif"></a>
+<!--[if IE]>
+<!DOCTYPE html>
+<![endif]-->
+
+<!-- BEGIN: Carousel 
+Profile: s2134293.main.eitvs.ebs7683
+AuthType: ip,uid
+QueryValue: LO system.nl-s2134293
+-->
+<style>
+.flipstercarouselheader, .scrollfix {width: 100%;}
+.EBSCOcarouselContainer {width: 1px;min-width: 100%;}
+</style>
+<div class="flipstercarouselheader" style="overflow:hidden !important;">
+<div style="width:100%;height:45px;">
+<div style="float:left;width:150px;text-align:left;padding-top:5px;"><a style="cursor:pointer" href="http://ezproxy.ammc.talonline.ca/login?url=http://search.ebscohost.com/login.aspx?authtype=ip,uid&custid=s2134293&db=eon&profile=eon" target="_blank"><img src="https://imageserver.ebscohost.com/branding/FlipsterCarousel/image/logo.png" title="Browse the full collection of magazine titles" alt="Browse the full collection of magazine titles" border="0" height="42px" width="149px"></a></div>
+</div>
+<div style="padding-bottom:10px;width:100%;"><img src="https://imageserver.ebscohost.com/branding/FlipsterCarousel/image/catbrowsehdr.png" border="0" width="100%" height="6px"></div>
+</div>
+<div class="scrollfix" style="height:280px;margin-top:-10px; overflow:hidden !important;">
+<iframe class="EBSCOcarouselContainer" style="height:300px;" src="https://widgets.ebscohost.com/prod/encryptedkey/eit/eit.php?t=themes%2Fflipster_carousel_slick%2Fxsl_auth_id.php%3Fcss%3D%2F%2Fimageserver.ebscohost.com%2Fbranding%2FFlipsterCarousel%2Fcss%2Fslick-app-theme.css&q=http%3A%2F%2Fwidgets.ebscohost.com%2Fprod%2Fencryptedkey%2Fehis%2Fwidget.php%3Fprof%3Ds2134293.main.eitvs%26pwd%3Debs7683%26sort%3Decmtitle%26query%3DLO%252Bsystem.nl-s2134293%26db%3Deon%26numrec%3D50%26format%3Dxml%26protect%3Dno%26removeehis%3D1%26pl%3D1%26smode%3D%26forcehttp%3Dhttp%26proxy%3Dhttp%253A%252F%252Fezproxy.ammc.talonline.ca%252Flogin%253Furl%253D%26rcounturl%3D&h=&custid=s2134293&authtype=ip,uid&groupid=main&settings=7,1,1,5000,0&wamdomain=search.ebscohost.com" frameborder="0">You need a Frame Capable browser to view this content.</iframe>
+
+<script>
+//<![CDATA[
+function carouselfixes() {
+    var carouselcontainer = document.getElementsByClassName("EBSCOcarouselContainer");
+    if (carouselcontainer.length > 0) {
+        for (var ebsco = 0; ebsco < carouselcontainer.length; ebsco++) {
+            carouselcontainer[ebsco].style.display = "none"; // For Chrome v44 xsl iframe bug.
+            carouselcontainer[ebsco].style.display = "block"; // For Chrome v44 xsl iframe bug.
+            if (navigator.userAgent.match(/(iPhone|iPod|iPad)/i)) { //check if using iOS mobile
+                carouselcontainer[ebsco].scrolling = "no";
+				
+            }
+        }
+    }
+}
+window.addEventListener("load", carouselfixes(), false);
+//]]>
+</script></div>
+
+<!-- END: Carousel -->
+
+
+<script>
+
+</script>
+
+<div id="templatemo_header_wrapper">
+	<div id="templatemo_header">
+
+	<img id="logo" src="images/bookmarklogo.png">
+    	<div id="site_title"><a href="#">Countdown</a></div>
+		
+    </div>
+</div>
+<p id="display"></p>
+<br><br>
+<div id="clockdiv"></div>
+<br><br>
+<button id="button" onclick="myFunction(); disabled=true;">Start</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction(){
+var time_in_minutes = 45;
+var current_time = Date.parse(new Date());
+var deadline = new Date(current_time + time_in_minutes*60*1000);
+
+
+function time_remaining(endtime){
+	var t = Date.parse(endtime) - Date.parse(new Date());
+	var seconds = Math.floor( (t/1000) % 60 );
+	var minutes = Math.floor( (t/1000/60) % 60 );
+	var hours = Math.floor( (t/(1000*60*60)) % 24 );
+	var days = Math.floor( t/(1000*60*60*24) );
+	return {'total':t, 'days':days, 'hours':hours, 'minutes':minutes, 'seconds':seconds};
+}
+function run_clock(id,endtime){
+	var clock = document.getElementById(id);
+	function update_clock(){
+		var t = time_remaining(endtime);
+		clock.innerHTML = +t.minutes+ ':'+t.seconds;
+		if(t.total<=0){ clearInterval(timeinterval); }
+	}
+	update_clock(); // run function once at first to avoid delay
+	var timeinterval = setInterval(update_clock,1000);
+}
+run_clock('clockdiv',deadline);
+}
+
+</script>
+
+
+
+
+
+            </div> <!-- END of top Home -->
+        </div>
+     </div>
+	 </div>
+
+
+<!-- END of Home -->
+
+
+<div id="templatemo_footer_wrapper">
+	<div id="templatemo_footer">
+
+   
+
+</div>
+</body>
+</html>
