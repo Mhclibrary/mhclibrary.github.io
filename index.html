@@ -105,14 +105,14 @@ var m = d.getMinutes();
 var a = d.getMonth();
 var display = document.getElementById('display');
 <!-- override section n + a; use for holidays we are closed; 0=January, 1=February -->
-if (n==1) {
-if (a==5) {
+if (n==12) {
+if (a==4) {
 display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
 }}
 
 else {
 if (n==0) {
-if (h>=13&&h<=19) {
+if (h>=1&&h<=1) {
 display.innerHTML = 'OPEN';
 }
 else {
@@ -120,7 +120,7 @@ display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
 }
 }
 if (n>=1&&n<=4) {
-if (h>=7&&h<=21) {
+if (h>=8&&h<=15) {
 display.innerHTML = 'OPEN';
 }
 else {
@@ -128,7 +128,7 @@ display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
 }
 }
 if (n==5) {
-if (h>=7&&h<=16){
+if (h>=8&&h<=15){
 display.innerHTML = 'OPEN';
 }
 else {
@@ -136,7 +136,7 @@ display.innerHTML = "<span style='color:#cf2b27'> CLOSED </span>";
 }
 }
 if (n==6) {
-if (h>=10&&h<=16) {
+if (h>=1&&h<=1) {
 display.innerHTML = 'OPEN';
 }
 else {
@@ -183,27 +183,27 @@ int=self.setInterval(function(){displayState()},60000)
  				<div class="home_box right">
                 	<div class="row1 box5">
                     	<div class="box_with_padding">
-                        	<h2>7:30 A.M. - 10 P.M.</h2>
+                        	<h2>8 A.M. - 4 P.M.</h2>
                     
 						</div>
                     </div>
                   <div class="home_box right">
                 	<div class="row1 box8">
                     	<div class="box_with_padding">
-                        	<h2>7:30 A.M. - 5 P.M.</h2>
+                        	<h2>8 A.M. - 4 P.M.</h2>
                     
 						</div>
                     </div>
 					<div class="home_box right">
                 	<div class="row1 box9">
                     	<div class="box_with_padding">
-                        	<h2>10 A.M. - 5 P.M.</h2>
+                        	<h2>CLOSED</h2>
                     
 						</div>
                     </div>
                     <div class="row1 box6">
                    <div class="box_with_padding">
-                        	<h2>1 P.M. - 8 P.M.</h2>
+                        	<h2>CLOSED</h2>
                             
                                 </div>                                
                             	
