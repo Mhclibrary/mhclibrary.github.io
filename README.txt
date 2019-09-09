@@ -26,4 +26,6 @@ On the left there will be a list of your changes.
 
 Step 2: Give a summary (title) of the changes.
 
-Step 3: 
+Step 3: Click on "Push Origin" on the top right of the client.
+
+To see the immediate product go out to the Tv and refresh the website. Otherwise the Tv's website will refresh at some point. 
