@@ -28,3 +28,8 @@ Step 2: Give a summary (title) of the changes and click on "Commit to Master".
 Step 3: Click on "Push Origin" on the top right of the client.
 
 To see the immediate product go out to the Tv and refresh the website. Otherwise the Tv's website will refresh at some point. 
+
+Other Dimensions:
+
+Powerpoint Horizontal: 19 x 10 (W X H)
+Powerpoint Vertical: 
