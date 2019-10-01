@@ -23,7 +23,7 @@ Once you are done replacing the images within the folder then you need to make t
 Step 1: Open Github Desktop
 On the left there will be a list of your changes.
 
-Step 2: Give a summary (title) of the changes.
+Step 2: Give a summary (title) of the changes and click on "Commit to Master".
 
 Step 3: Click on "Push Origin" on the top right of the client.
 
