@@ -14,8 +14,8 @@ Dimensions for the ads:
 Feel free to use whatever if the poster is given to you from outside sources. For example, if Crave gives you a sign just use it whatever the dimensions are.
 
 For the best look for posters follow these dimensions:
-Portrait: 2376 px X 3669 px (Indesign conversion = 148.5 x 229.3125)
-Horizontal: 1850 X 1000 (Indesign converstion = 115.625 x 62.5)
+Portrait: 2376 px X 3669 px
+Horizontal: 1850 X 1000
 
 To publish the ads:
 Once you are done replacing the images within the folder then you need to make the content live. Here are the steps.
@@ -31,5 +31,8 @@ To see the immediate product go out to the Tv and refresh the website. Otherwise
 
 Other Dimensions:
 
-Powerpoint Horizontal: 19 x 10 (W X H)
+Powerpoint Horizontal: 19" x 10" (W X H)
 Powerpoint Vertical: 
+
+Indesign Portrait: 148.5 x 229.3125
+Indesign Horizontal: 115.625 x 62.5
