@@ -32,7 +32,7 @@ To see the immediate product go out to the Tv and refresh the website. Otherwise
 Other Dimensions:
 
 Powerpoint Horizontal: 19" x 10" (W X H)
-Powerpoint Vertical: 10" x 17" (W X H)
+Powerpoint Vertical: 10" x 19" (W X H)
 
 Indesign Portrait: 148.5 x 229.3125
 Indesign Horizontal: 115.625 x 62.5
